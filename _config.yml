@@ -1,0 +1,24 @@
+# Jekyll configuration for GitHub Pages
+title: My Website
+description: A basic Jekyll site hosted on GitHub Pages
+author: Your Name
+email: your.email@example.com
+url: https://dipeshvpatel.github.io
+baseurl: ""
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files/directories from processing
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
