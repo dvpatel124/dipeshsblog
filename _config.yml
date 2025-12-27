@@ -1,7 +1,7 @@
 # Jekyll configuration for GitHub Pages
-title: My Website
-description: A basic Jekyll site hosted on GitHub Pages
-author: Your Name
+title: Chomp
+description: The beginning of a new adventure.
+author: Dipesh V Patel
 email: your.email@example.com
 url: https://dipeshvpatel.github.io
 baseurl: ""
