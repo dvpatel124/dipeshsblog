@@ -3,9 +3,14 @@ title: Chomp
 description: The beginning of a new adventure.
 author: Dipesh V Patel
 email: your.email@example.com
-url: https://dipeshvpatel.github.io
-baseurl: ""
 
+
+version:          1.0
+gitbook_version:  3.2.3
+
+url: 'dipeshvpatel.github.io'
+baseurl: '/dipeshsblog'
+rss:              RSS
 # Theme
 # theme: minima
 remote_theme: pages-themes/tactile@v0.2.0
@@ -17,10 +22,35 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme 
 
-# Exclude files/directories from processing
 exclude:
+  - _drafts
   - .gitignore
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
+
+ordered_collections:
+  - posts
+  - pages
+  - others
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-readme-index
+  - jemoji
