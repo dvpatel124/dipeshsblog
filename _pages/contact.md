@@ -1,9 +1,9 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: Dipesh Patel
+date: 2025-12-29
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+Just give me a ping on my LinkedIn. 
