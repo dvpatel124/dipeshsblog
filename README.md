@@ -3,9 +3,9 @@ layout: home
 title: Dipesh's Blog
 permalink: /
 ---
-## Chompyyy
-chomp chomp
+## Welcome
 
+Welcome to my blog where I post experiments and idea which I find useful and hopefully you do to. 
 
 ## License
 
