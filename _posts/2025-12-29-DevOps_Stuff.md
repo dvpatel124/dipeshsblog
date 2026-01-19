@@ -9,8 +9,3 @@ layout: post
 Content coming soon. 
 -------------
 
-
-```yaml
-toc:
-    enabled: true
-```
